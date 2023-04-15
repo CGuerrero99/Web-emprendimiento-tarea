@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+header{
+    height: 220px !important;
+    text-align: center !important;
+    text-size-adjust: auto;
+    text-shadow: 2px 2px grey !important;
+    color: black !important;
+    font-family: 'Chivo Mono', monospace !important;
+    background-color: lavenderblush !important;
+    margin: 20px !important;
+    padding: 20px !important;
+    border: solid rgb(211, 174, 186)!important;
+    border-radius: 10px !important;
+}
+
+body{
+    background-image: url(./images/background3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(21, 26, 27) !important;
+    background-attachment: fixed;
+}
+
+div {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+} 
+
+.container{
+    color: white !important;
+
+}
+
+.my-navbar{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.my-navbar a {
+   
+    color: white;
+    
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 18px;
+}
+
+main h1{
+    font-size: 100px;
+    font-family: 'Chivo Mono', monospace;
+    text-shadow: 5px 5px rgb(58, 58, 58);
+    transition: 0.3s;
+}
+
+main h1:hover{
+    font-size: 105px;
+    transition: 0.3s;
+}
+
+main p{
+    font-family: 'Martian Mono', monospace;
+    text-shadow: 1px 1px rgb(58, 58, 58);
+}
+
+section{
+    font-family: 'Martian Mono', monospace;
+    text-shadow: 1px 1px rgb(58, 58, 58);
+}
+
+aside{
+    font-family: 'Martian Mono', monospace
+}
+
+.portada{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.btn {
+    margin-bottom: 25px;
+    height: 60px;
+    width: 300px;
+    margin-top: 25px;
+    align-content: center;
+}
+
+.card-body{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.redes{
+    margin: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.carousel{
+    width: 450px !important;
+    padding: auto;
+    margin: 0;
+}
+
+.carousel-caption{
+    width: auto;
+}
+
+.carousel-inner{
+    width: auto;
+}
+
+.carousel-item{
+    width: auto;
+}
+
+.carousel-indicators{
+    width: auto;
+}
+
+.textocarousel{
+    color: white;
+}
